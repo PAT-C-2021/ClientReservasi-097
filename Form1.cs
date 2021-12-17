@@ -90,10 +90,10 @@ namespace ClientReservasi_20190140097
         private void dtPemesanan_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             tbID.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[0].Value);
-            tbNama.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[1].Value);
-            tbNoTlp.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[2].Value);
-            tbJumlah.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[3].Value);
-            tbIDLokasi.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[4].Value);
+            tbNama.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[3].Value);
+            tbNoTlp.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[4].Value);
+            tbJumlah.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[1].Value);
+            tbIDLokasi.Text = Convert.ToString(dtPemesanan.Rows[e.RowIndex].Cells[2].Value);
 
             tbJumlah.Enabled = false;
             tbIDLokasi.Enabled = false;
